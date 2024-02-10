@@ -21,100 +21,172 @@
     <meta property="og:image"
         content="https://lumethystere.ovh/dimitri-lumethystere/assets/Lumethystere-sur-une-bague.webp">
     <meta property="og:url" content="https://github.com/diditree">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="origines.html">Histoire</a></li>
-                <li><a href="shop.html">Boutique</a></li>
-            </ul>
-        </nav>
-        <div>
-            <div>
-                <h1>Pierre Luméthystère - Une pierre jaune magique et spirituelle légèrement translucide</h1>
-                <p>Une pierre jaune légèrement translucide , la Luméthystère est symbole de spiritualité et de magie.
-                    Une pierre magique présente sur les ornements des guerriers celtes, la Luméthystère est riche de
-                    valeurs et d'histoire. Découvrez l'histoire fascinante de ce quartz éthéré et de ses énergies
-                    féériques sur
-                    le corps et l'esprit.</p>
-                <a href="origines.html">Découvrir la pierre Lumethystere</a>
+        <div class="container mx-auto">
+            <nav class="flex flex-wrap h p-5 h-auto">
+                <ul class="flex mx-auto space-x-4">
+                    <li><a class="flex-1 px-3 py-3 text-sm font-medium items-center border-b-2 border-purple-600 transition duration-300 text-xl"
+                            href="index.html">Accueil</a></li>
+                    <li><a class="px-3 py-3 text-sm font-medium items-center border-b-2 border-transparent hover:border-purple-600 transition duration-300 text-xl"
+                            href="origines.html">Histoire</a></li>
+                    <li><a class="p-3 text-sm font-medium items-center border-b-2 border-transparent hover:border-purple-600 transition duration-300 text-xl"
+                            href="shop.html">Boutique</a></li>
+                </ul>
+            </nav>
+
+            <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+                <div
+                    class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                    <h1 class="sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Pierre Luméthystère - Une
+                        pierre jaune magique et spirituelle légèrement translucide</h1>
+                    <p class="mb-8 leading-relaxed">Une pierre jaune légèrement translucide , la Luméthystère est
+                        symbole de spiritualité et de
+                        magie.
+                        Une pierre magique présente sur les ornements des guerriers celtes, la Luméthystère est riche de
+                        valeurs et d'histoire. Découvrez l'histoire fascinante de ce quartz éthéré et de ses énergies
+                        féériques sur
+                        le corps et l'esprit.</p>
+                    <a class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+                        href="origines.html">Découvrir la pierre Lumethystere</a>
+                </div>
+                <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                    <img class="object-cover object-center rounded" src="assets/Lumethystere-dans-la-foret.webp"
+                        alt="Lumethystere dans la foret celtique">
+                </div>
             </div>
-            <img src="assets/Lumethystere-dans-la-foret.webp" alt="Lumethystere dans la foret celtique">
         </div>
     </header>
 
     <main>
         <section>
-            <h2>Vertus et bienfaits de la Luméthystère</h2>
-            <ul>
-                <li>Soigne les maux de ventres et régule le microbiote intestinal</li>
-                <li>Apaise les angoisses et le stress</li>
-                <li>Donne de la confiance en soi</li>
-                <li>Augmente la productivité</li>
-                <li>Favorise le sommeil réparateur</li>
-                <li>Attire les Energies positives</li>
-                <li>Equilibre le système hormonal</li>
-            </ul>
+            <div class="container px-5 py-24 mx-auto">
+                <h2 class="sm:text-3xl text-3xl mb-4 font-medium text-gray-900">Vertus et bienfaits de
+                    la Luméthystère</h2>
+                <ul>
+                    <li>Soigne les maux de ventres et régule le microbiote intestinal</li>
+                    <li>Apaise les angoisses et le stress</li>
+                    <li>Donne de la confiance en soi</li>
+                    <li>Augmente la productivité</li>
+                    <li>Favorise le sommeil réparateur</li>
+                    <li>Attire les Energies positives</li>
+                    <li>Equilibre le système hormonal</li>
+                </ul>
+            </div>
         </section>
 
-        <section>
-            <h2>Bijoux en Luméthystère</h2>
-            <ul>
-                <li><img src="assets/Lumethystere-sur-une-bague.webp" alt="Luméthystère sur une bague en argent"></li>
-                <li><img src="assets/Lumethystere-sur-un-collier.webp" alt="Luméthystère sur un collier en argent"></li>
-                <li><img src="assets/Luméthystere-ornee-sur-une-couronne.webp"
-                        alt="Luméthystère ornée sur une couronne"></li>
+        <section class="container px-5 py-24 mx-auto">
+            <h2 class="sm:text-3xl text-3xl mb-4 font-medium text-gray-900">Bijoux en Luméthystère</h2>
+            <ul class="flex flex-wrap -m-4">
+                <li class="max-w-sm rounded overflow-hidden shadow-lg mx-auto my-8">
+                    <figure>
+                        <img class="w-full" src="assets/Lumethystere-sur-une-bague.webp"
+                            alt="Luméthystère sur une bague en argent">
+                        <div class="px-6 py-4">
+                            <figcaption class=" mb-2">
+                                <span class="font-bold text-xl">Bague Lumethystere</span>
+                                <p class="text-gray-600 text-base">Une sublime bague en <strong>pierre</strong>
+                                    <strong>Lumethystere</strong>, une
+                                    <strong>pierre</strong> jaune
+                                    magique et spirituelle légèrement translucide</p>
+                            </figcaption>
+                    </figure>
+                </li>
+
+                <li class="max-w-sm rounded overflow-hidden shadow-lg mx-auto my-8">
+                    <figure>
+                        <img class="w-full" src="assets/Lumethystere-sur-un-collier.webp"
+                            alt="Luméthystère sur une bague en argent">
+                        <div class="px-6 py-4">
+                            <figcaption class=" mb-2">
+                                <span class="font-bold text-xl">Collier Lumethystere</span>
+                                <p class="text-gray-600 text-base">Un magnifique collier en <strong>pierre</strong>
+                                    <strong>Lumethystere</strong>, une
+                                    <strong>pierre</strong> jaune
+                                    magique et spirituelle légèrement translucide</p>
+                            </figcaption>
+                    </figure>
+                </li>
+                <li class="max-w-sm rounded overflow-hidden shadow-lg mx-auto my-8">
+                    <figure>
+                        <img class="w-full" src="assets/Lumethystere-ornee-sur-une-couronne.webp"
+                            alt="Luméthystère sur une bague en argent">
+                        <div class="px-6 py-4">
+                            <figcaption class=" mb-2">
+                                <span class="font-bold text-xl">Couronne Lumethystere</span>
+                                <p class="text-gray-600 text-base">Une merveilleuse replique d'une couronne orneé d'une
+                                    <strong>pierre</strong> <strong>Lumethystere</strong>, une
+                                    <strong>pierre</strong> jaune
+                                    magique et spirituelle légèrement translucide</p>
+                            </figcaption>
+                    </figure>
+                </li>
             </ul>
-            <a href="shop.html">Acheter des bijoux Luméthystère</a>
+            <a class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+                href="shop.html">Acheter des bijoux Luméthystère</a>
         </section>
 
-        <section>
-            <h2>D'où vient le nom de la pierre Luméthystère ?</h2>
-            <p>L'origine mystique de la <strong>Luméthystère</strong> remonte aux racines profondes du grec ancien et du
-                latin.
-                La première partie, "Lum", tire son essence du latin "lumen", symbolisant la lumière.
-                La seconde partie, "Éthystère", s'inspire du mot grec ancien "aithēr", évoquant le ciel lumineux et
-                l'atmosphère céleste. Ce choix délibéré souligne la dimension magique de la <strong>pierre</strong>,
-                liée aux énergies
-                célestes et à l'essence spirituelle.
-            </p>
-            <p><strong>Luméthystère</strong> : une <strong>pierre</strong> jaune légèrement translucide qui émet de la
-                lumière dont on soupçonne une
-                légère magie et un aspect mystique.
-                Ainsi, le nom "<strong>Luméthystère</strong>" s'érige comme un symbole fusionnant la lumière divine avec
-                l'éther
-                mystique, capturant l'imagination et évoquant un lien sacré avec l'inexploré. Cette fusion linguistique
-                crée une harmonie phonétique et sémantique, renforçant l'aura enchanteresse de cette
-                <strong>pierre</strong> aux
-                propriétés magiques, propice à l'exploration spirituelle et à l'éveil de l'âme. Explorez les profondeurs
-                de la <strong>Luméthystère</strong>, où la lumière et le mystère s'entrelacent pour créer une expérience
-                transcendante.
-            </p>
+        <section class="container px-5 py-24 mx-auto">
+            <h2 class="sm:text-3xl text-3xl mb-4 font-medium text-gray-900">D'où vient le nom de la pierre Luméthystère
+                ?</h2>
+            <div class="flex flex-col mx-auto space-y-5 m-4">
+                <p>L'origine mystique de la <strong>Luméthystère</strong> remonte aux racines
+                    profondes du grec ancien et du
+                    latin.
+                    La première partie, "Lum", tire son essence du latin "lumen", symbolisant la lumière.
+                    La seconde partie, "Éthystère", s'inspire du mot grec ancien "aithēr", évoquant le ciel lumineux et
+                    l'atmosphère céleste. Ce choix délibéré souligne la dimension magique de la <strong>pierre</strong>,
+                    liée aux énergies
+                    célestes et à l'essence spirituelle.
+                </p>
+                <p><strong>Luméthystère</strong> : une <strong>pierre</strong> jaune légèrement translucide qui émet de
+                    la
+                    lumière dont on soupçonne une
+                    légère magie et un aspect mystique.
+                    Ainsi, le nom "<strong>Luméthystère</strong>" s'érige comme un symbole fusionnant la lumière divine
+                    avec
+                    l'éther
+                    mystique, capturant l'imagination et évoquant un lien sacré avec l'inexploré. Cette fusion
+                    linguistique
+                    crée une harmonie phonétique et sémantique, renforçant l'aura enchanteresse de cette
+                    <strong>pierre</strong> aux
+                    propriétés magiques, propice à l'exploration spirituelle et à l'éveil de l'âme. Explorez les
+                    profondeurs
+                    de la <strong>Luméthystère</strong>, où la lumière et le mystère s'entrelacent pour créer une
+                    expérience
+                    transcendante.
+                </p>
 
-            <p>Célébrez l'héritage <strong>celtique</strong> et <strong>druidique</strong> à travers la
-                <strong>Luméthystère</strong>, une <strong>pierre</strong> dont le nom évoque la
-                lumière céleste et l'éther mystique, capturant ainsi la magie et la spiritualité des temps anciens.
-                Plongez dans cette expérience transcendante, où la <strong>Luméthystère</strong> devient bien plus
-                qu'une <strong>pierre</strong>
-                précieuse elle devient une porte vers l'inexploré, une invitation à explorer l'âme et à embrasser la
-                magie celtique.
-            </p>
-            <a href="origines.html">La pierre Lumethystere</a>
+                <p>Célébrez l'héritage <strong>celtique</strong> et <strong>druidique</strong> à travers la
+                    <strong>Luméthystère</strong>, une <strong>pierre</strong> dont le nom évoque la
+                    lumière céleste et l'éther mystique, capturant ainsi la magie et la spiritualité des temps anciens.
+                    Plongez dans cette expérience transcendante, où la <strong>Luméthystère</strong> devient bien plus
+                    qu'une <strong>pierre</strong>
+                    précieuse elle devient une porte vers l'inexploré, une invitation à explorer l'âme et à embrasser la
+                    magie celtique.
+                </p>
+            </div>
+            <a class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+                href="origines.html">En savoir plus sur la pierre Lumethystere</a>
         </section>
 
 
     </main>
 
-    <footer>
-        <h2>Pierre Luméthystère - Une pierre jaune magique et spirituelle légèrement translucide</h2>
-        <nav>
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="origines.html">Histoire</a></li>
-                <li><a href="shop.html">Boutique</a></li>
+    <footer class="bg-black text-center">
+        <h2 class="text-white">Pierre Luméthystère - Une pierre jaune magique et spirituelle légèrement translucide
+        </h2>
+        <nav class="flex flex-wrap h py-10 h-auto text-white">
+            <ul class="flex mx-auto space-x-4">
+                <li><a class="flex-1 px-3 py-3 text-sm font-medium items-center border-b-2 border-purple-600 transition duration-300 text-xl"
+                        href="index.html">Accueil</a></li>
+                <li><a class="px-3 py-3 text-sm font-medium items-center border-b-2 border-transparent hover:border-purple-600 transition duration-300 text-xl"
+                        href="origines.html">Histoire</a></li>
+                <li><a class="p-3 text-sm font-medium items-center border-b-2 border-transparent hover:border-purple-600 transition duration-300 text-xl"
+                        href="shop.html">Boutique</a></li>
             </ul>
         </nav>
     </footer>

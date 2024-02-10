@@ -21,69 +21,89 @@
     <meta property="og:image"
         content="https://lumethystere.ovh/dimitri-lumethystere/assets/Lumethystere-sur-une-bague.webp">
     <meta property="og:url" content="https://github.com/diditree">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
 
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="origines.html">Histoire</a></li>
-                <li><a href="shop.html">Boutique</a></li>
+        <nav class="flex flex-wrap h p-5 h-auto">
+            <ul class="flex mx-auto space-x-4">
+                <li><a class="flex-1 px-3 py-3 text-sm font-medium items-center border-b-2 border-transparent hover:border-purple-600 transition duration-300 text-xl"
+                        href="index.html">Accueil</a></li>
+                <li><a class="px-3 py-3 text-sm font-medium items-center border-b-2 border-transparent hover:border-purple-600 transition duration-300 text-xl"
+                        href="origines.html">Histoire</a></li>
+                <li><a class="p-3 text-sm font-medium items-center border-b-2 border-purple-600 transition duration-300 text-xl"
+                        href="shop.html">Boutique</a></li>
             </ul>
         </nav>
 
-        <h1>Pierre Luméthystère - Une pierre jaune magique et spirituelle légèrement translucide</h1>
+        <h1 class="sm:text-4xl text-3xl mb-4 font-medium text-gray-900 py-10">Pierre Luméthystère - Une pierre jaune magique
+            et spirituelle légèrement translucide</h1>
     </header>
 
     <main>
-        <section>
-            <h2>Acheter des produits Luméthystère</h2>
-
-            <div>
-                <img src="assets/Lumethystere-sur-un-collier.webp" alt="Luméthystère sur un collier en argent">
-                <div>
-                    <h3>Luméthystère sur un collier en argent</h3>
-                    <p>Un magnifique collier en <strong>pierre</strong> <strong>Lumethystere</strong>, une
-                        <strong>pierre</strong> jaune
-                        magique et spirituelle légèrement translucide
-                    </p>
+        <section class="container px-5 py-24 mx-auto">
+            <h2 class="sm:text-3xl text-3xl mb-4 font-medium text-gray-900">Acheter des produits Luméthystère</h2>
+            <div class="flex flex-wrap -m-4">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg mx-auto my-8">
+                    <figure>
+                        <img class="w-full" src="assets/Lumethystere-sur-un-collier.webp"
+                            alt="Luméthystère sur une bague en argent">
+                        <div class="px-6 py-4">
+                            <figcaption class=" mb-2">
+                                <span class="font-bold text-xl">Collier Lumethystere</span>
+                                <p class="text-gray-600 text-base">Un magnifique collier en <strong>pierre</strong>
+                                    <strong>Lumethystere</strong>, une
+                                    <strong>pierre</strong> jaune
+                                    magique et spirituelle légèrement translucide</p>
+                            </figcaption>
+                    </figure>
                 </div>
-            </div>
-            <div>
-                <img src="assets/Lumethystere-sur-une-bague.webp" alt="Luméthystère sur une collier en argent">
-                <div>
-                    <h3>Luméthystère sur une bague en argent</h3>
-                    <p>Une sublime bague en <strong>pierre</strong> <strong>Lumethystere</strong>, une
-                        <strong>pierre</strong> jaune
-                        magique et spirituelle légèrement translucide
-                    </p>
+                <div class="max-w-sm rounded overflow-hidden shadow-lg mx-auto my-8">
+                    <figure>
+                        <img class="w-full" src="assets/Lumethystere-sur-une-bague.webp"
+                            alt="Luméthystère sur une bague en argent">
+                        <div class="px-6 py-4">
+                            <figcaption class=" mb-2">
+                                <span class="font-bold text-xl">Bague Lumethystere</span>
+                                <p class="text-gray-600 text-base">Une sublime bague en <strong>pierre</strong>
+                                    <strong>Lumethystere</strong>, une
+                                    <strong>pierre</strong> jaune
+                                    magique et spirituelle légèrement translucide</p>
+                            </figcaption>
+                    </figure>
                 </div>
-            </div>
-            <div>
-                <img src="assets/Luméthystere-ornee-sur-une-couronne.webp" alt="Luméthystère ornée sur une couronne">
-                <div>
-                    <h3>Luméthystère ornée sur une antique couronne celte</h3>
-                    <p>Une sublime bague en <strong>pierre</strong> <strong>Lumethystere</strong>, une
-                        <strong>pierre</strong> jaune
-                        magique et spirituelle légèrement translucide
-                    </p>
+                <div class="max-w-sm rounded overflow-hidden shadow-lg mx-auto my-8">
+                    <figure>
+                        <img class="w-full" src="assets/Lumethystere-ornee-sur-une-couronne.webp"
+                            alt="Luméthystère sur une bague en argent">
+                        <div class="px-6 py-4">
+                            <figcaption class=" mb-2">
+                                <span class="font-bold text-xl">Couronne Lumethystere</span>
+                                <p class="text-gray-600 text-base">Une merveilleuse replique d'une couronne orneé d'une
+                                    <strong>pierre</strong> <strong>Lumethystere</strong>, une
+                                    <strong>pierre</strong> jaune
+                                    magique et spirituelle légèrement translucide</p>
+                            </figcaption>
+                    </figure>
                 </div>
             </div>
         </section>
     </main>
 
 
-    <footer>
-        <h2>Pierre Luméthystère - Une pierre jaune magique et spirituelle légèrement translucide</h2>
-        <nav>
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li>
-                    <a href="origines.html">Histoire</a>
-                </li>
-                <li><a href="shop.html">Boutique</a></li>
+    <footer class="bg-black text-center">
+        <h2 class="text-white">Pierre Luméthystère - Une pierre jaune magique et spirituelle légèrement translucide
+        </h2>
+        <nav class="flex flex-wrap h py-10 h-auto text-white">
+            <ul class="flex mx-auto space-x-4">
+                <li><a class="flex-1 px-3 py-3 text-sm font-medium items-center border-b-2 border-transparent hover:border-purple-600 transition duration-300 text-xl"
+                        href="index.html">Accueil</a></li>
+                <li><a class="px-3 py-3 text-sm font-medium items-center border-b-2 border-transparent hover:border-purple-600 transition duration-300 text-xl"
+                        href="origines.html">Histoire</a></li>
+                <li><a class="p-3 text-sm font-medium items-center border-b-2 border-purple-600 transition duration-300 text-xl"
+                        href="shop.html">Boutique</a></li>
             </ul>
         </nav>
     </footer>

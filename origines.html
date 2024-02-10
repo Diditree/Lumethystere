@@ -21,72 +21,104 @@
     <meta property="og:image"
         content="https://lumethystere.ovh/dimitri-lumethystere/assets/Lumethystere-sur-une-bague.webp">
     <meta property="og:url" content="https://github.com/diditree">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
 
 
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="origines.html">Histoire</a></li>
-                <li><a href="shop.html">Boutique</a></li>
-            </ul>
-        </nav>
+        <div class="container mx-auto">
+            <nav class="flex flex-wrap h p-5 h-auto">
+                <ul class="flex mx-auto space-x-4">
+                    <li><a class="p-3 text-sm font-medium items-center border-b-2 border-transparent hover:border-purple-600 transition duration-300 text-xl"
+                            href="index.html">Accueil</a></li>
+                    <li><a class="px-3 py-3 text-sm font-medium items-center border-b-2 border-purple-600 transition duration-300 text-xl"
+                            href="origines.html">Histoire</a></li>
+                    <li><a class="p-3 text-sm font-medium items-center border-b-2 border-transparent hover:border-purple-600 transition duration-300 text-xl"
+                            href="shop.html">Boutique</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
-        <section>
-            <h2>Histoire de la Lumethystere</h2>
-            <p>Dans les mystérieuses terres de la <strong>Bretagne</strong>, où les légendes celtiques dansent avec la
-                brume océanique,
-                naquit la <strong>Luméthystère</strong>, une <strong>pierre</strong> magique jaune légèrement
-                translucide, symbole de spiritualité et de
-                magie, une <strong>pierre</strong> empreinte d'une histoire enchanteresse. Au cœur des collines
-                verdoyantes et des
-                menhirs millénaires, une fée bienveillante tissait des sortilèges pour protéger les guerriers
-                <strong>celtes</strong>
-                des énergies sombres qui hantaient les champs de bataille.
-            </p>
 
-            <p>
-                Un jour, la fée reçut la visite d'un druide qui cherchait une <strong>pierre</strong> sacrée capable
-                d'harmoniser le
-                corps et l'esprit. Profondément connectée à la nature et aux anciens rituels, elle se lança dans une
-                quête magique pour créer la <strong>pierre</strong> parfaite, unissant la lumière du ciel et la force
-                tellurique.
-            </p>
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+            <div
+                class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                <h1 class="sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Histoire de la Lumethystere</h1>
 
-            <p>
-                À la lueur des étoiles, la fée parcourut les landes brumeuses, cueillant des herbes rares et des fleurs
-                enchantées. Elle découvrit un <strong>cristal</strong> de <strong>quartz</strong> étincelant dans une
-                clairière sacrée, imprégné de
-                l'énergie des anciens druides. Guidée par la sagesse des esprits <strong>celtiques</strong>, elle
-                fusionna le <strong>cristal</strong>
-                avec des éclats du soleil couchant, créant ainsi la <strong>Luméthstère</strong>, une
-                <strong>pierre</strong> d'une
-                beauté transcendante.
-            </p>
-            <p>
-                Les guerriers <strong>celtes</strong>, honorant cette création magique, portèrent la
-                <strong>Luméthystère</strong> comme un talisman,
-                symbole de protection et d'équilibre spirituel. Les bardes récitèrent des poèmes épiques sur l'origine
-                de cette <strong>pierre</strong>, répandant son histoire dans tout le pays <strong>breton</strong>.
-            </p>
+                <div class="flex flex-col mx-auto space-y-5 m-4">
+                    <p>Dans les mystérieuses terres de la <strong>Bretagne</strong>, où les légendes celtiques dansent
+                        avec
+                        la
+                        brume océanique,
+                        naquit la <strong>Luméthystère</strong>, une <strong>pierre</strong> magique jaune légèrement
+                        translucide, symbole de spiritualité et de
+                        magie, une <strong>pierre</strong> empreinte d'une histoire enchanteresse. Au cœur des collines
+                        verdoyantes et des
+                        menhirs millénaires, une fée bienveillante tissait des sortilèges pour protéger les guerriers
+                        <strong>celtes</strong>
+                        des énergies sombres qui hantaient les champs de bataille.
+                    </p>
 
-            <a href="shop.html">Découvrir les bijoux Lumethystere</a>
-        </section>
+                    <p>
+                        Un jour, la fée reçut la visite d'un druide qui cherchait une <strong>pierre</strong> sacrée
+                        capable
+                        d'harmoniser le
+                        corps et l'esprit. Profondément connectée à la nature et aux anciens rituels, elle se lança dans
+                        une
+                        quête magique pour créer la <strong>pierre</strong> parfaite, unissant la lumière du ciel et la
+                        force
+                        tellurique.
+                    </p>
 
-        <img src="assets/Lumethystere-portee-par-une-fee.webp"
-            alt="Lumethystere portee par une fee dans une forêt celtique en Bretagne">
+                    <p>
+                        À la lueur des étoiles, la fée parcourut les landes brumeuses, cueillant des herbes rares et des
+                        fleurs
+                        enchantées. Elle découvrit un <strong>cristal</strong> de <strong>quartz</strong> étincelant
+                        dans
+                        une
+                        clairière sacrée, imprégné de
+                        l'énergie des anciens druides. Guidée par la sagesse des esprits <strong>celtiques</strong>,
+                        elle
+                        fusionna le <strong>cristal</strong>
+                        avec des éclats du soleil couchant, créant ainsi la <strong>Luméthstère</strong>, une
+                        <strong>pierre</strong> d'une
+                        beauté transcendante.
+                    </p>
+                    <p>
+                        Les guerriers <strong>celtes</strong>, honorant cette création magique, portèrent la
+                        <strong>Luméthystère</strong> comme un talisman,
+                        symbole de protection et d'équilibre spirituel. Les bardes récitèrent des poèmes épiques sur
+                        l'origine
+                        de cette <strong>pierre</strong>, répandant son histoire dans tout le pays
+                        <strong>breton</strong>.
+                    </p>
+                </div>
+                <a class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+                    href="shop.html">Découvrir les bijoux Lumethystere</a>
+            </div>
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <img class="object-cover object-center rounded" src="assets/Lumethystere-portee-par-une-fee.webp"
+                    alt="Lumethystere dans la foret celtique">
+            </div>
+        </div>
     </main>
-    <footer>
-        <h2>Pierre Luméthystère - Une pierre jaune magique et spirituelle légèrement translucide</h2>
-        <nav>
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="origines.html">Histoire</a></li>
-                <li><a href="shop.html">Boutique</a></li>
+
+
+
+    <footer class="bg-black text-center">
+        <h2 class="text-white">Pierre Luméthystère - Une pierre jaune magique et spirituelle légèrement translucide
+        </h2>
+        <nav class="flex flex-wrap h py-10 h-auto text-white">
+            <ul class="flex mx-auto space-x-4">
+                <li><a class="flex-1 px-3 py-3 text-sm font-medium items-center border-b-2 border-transparent hover:border-purple-600 transition duration-300 text-xl"
+                        href="index.html">Accueil</a></li>
+                <li><a class="px-3 py-3 text-sm font-medium items-center border-b-2 border-purple-600 transition duration-300 text-xl"
+                        href="origines.html">Histoire</a></li>
+                <li><a class="flex-1 px-3 py-3 text-sm font-medium items-center border-b-2 border-transparent hover:border-purple-600 transition duration-300 text-xl"
+                        href="shop.html">Boutique</a></li>
             </ul>
         </nav>
     </footer>
